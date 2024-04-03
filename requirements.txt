@@ -1,0 +1,4 @@
+httplib2
+googleAPI
+aiogram <2.9
+
