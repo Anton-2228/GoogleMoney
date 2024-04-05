@@ -16,7 +16,7 @@ logging.basicConfig(level=logging.INFO)
 #logging.basicConfig(level=logging.INFO, filename="logs.log", format="%(asctime)s %(levelname)s %(message)s")
 
 API_TOKEN = "секрет"
-CREDENTIALS_FILE = 'data/mmmm-376012-d0a58302e867.json'
+CREDENTIALS_FILE = 'data_files/mmmm-376012-d0a58302e867.json'
 
 def setCommands():
     global commands

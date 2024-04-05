@@ -159,7 +159,7 @@ class Spreadsheet:
         }).execute()
 
     # Установка значений ячеек
-    # data = [[sheetName, dimension, range, values]]
+    # data_files = [[sheetName, dimension, range, values]]
     @staticmethod
     def setValues(spreadsheetID, data):
         sheetService = GlobalVariables.sheetService

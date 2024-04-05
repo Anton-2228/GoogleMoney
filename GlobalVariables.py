@@ -19,28 +19,28 @@ class Events(Helper):
     COMFIRM_DELETE = ListItem()
     COMFIRM_CHANGE_DATE_RESET = ListItem()
 
-with open('data/title.json', 'r') as file:
+with open('data_files/title.json', 'r') as file:
     titles = json.load(file)
 
-with open('data/templateOperatios.json', 'r') as file:
+with open('data_files/templateOperatios.json', 'r') as file:
     templateOperatios = json.load(file)
 
-with open('data/templateStatistics.json', 'r') as file:
+with open('data_files/templateStatistics.json', 'r') as file:
     templateStatistics = json.load(file)
 
-with open('data/data.json', 'r') as file:
+with open('data_files/data.json', 'r') as file:
     data = json.loads(file.read())
 
-with open('data/categories.json', 'r') as file:
+with open('data_files/categories.json', 'r') as file:
     categories = json.loads(file.read())
 
-with open('data/sources.json', 'r') as file:
+with open('data_files/sources.json', 'r') as file:
     sources = json.loads(file.read())
 
-with open('data/records.json', 'r') as file:
+with open('data_files/records.json', 'r') as file:
     records = json.loads(file.read())
 
-with open('data/help.txt', 'r', encoding='utf-8') as file:
+with open('data_files/help.txt', 'r', encoding='utf-8') as file:
     help = file.read()
 
 daysUntilNextMonth = {1: 31,
