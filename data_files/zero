@@ -1,0 +1,3 @@
+echo {} > data.json
+echo {} > sources.json
+echo {} > categories.json
